@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
-import leftImage from "../../assets/images/left.png";
+import left from "../../assets/images/left.png";
 import { Link, useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 
@@ -38,7 +38,7 @@ const Login = () => {
       <Toaster position="top-right" reverseOrder={false} />
 
       <div className="flex-1 bg-gray-100 flex items-center justify-center">
-        <img src={leftImage} alt="Illustration" className="max-w-xs md:max-w-md" />
+        <img src={left} alt="Illustration" className="max-w-xs md:max-w-md" />
       </div>
 
       <div className="flex-1 flex items-center justify-center px-6 py-10">
